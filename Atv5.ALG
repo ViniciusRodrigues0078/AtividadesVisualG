@@ -17,22 +17,20 @@ se IMC <= 20 entao
 escreval ("Você está abaixo do peso.")
 fimse
 
-se IMC > 20, IMC <= 25 entao
+se (IMC > 20) e (IMC <= 25) entao
 escreval ("Você está com o peso normal.")
 fimse
 
-se IMC > 25, IMC <= 30 entao
+se (IMC > 25) e (IMC <= 30) entao
 escreval ("Você está sobrepeso.")
 fimse
 
-se IMC > 30, IMC <= 40 entao
+se (IMC > 30) e (IMC <= 40) entao
 escreval ("Você está obeso.")
 fimse
 
 se IMC > 40 entao
 escreval ("Você está obeso mórbido")
 fimse
-
-
 
 Fimalgoritmo
