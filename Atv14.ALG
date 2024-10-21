@@ -6,8 +6,6 @@ renda, emprestimo, prestacoes : real
 
 Inicio
 
-//empréstimo deve ser até 10x o valor da renda mensal do solicitante
-//prestação deve ser no máximo 30% da renda mensal do solicitante
 escreval ("Qual a sua renda mensal?")
 leia (renda)
 escreval ("Quantas prestações você deseja pagar?")
