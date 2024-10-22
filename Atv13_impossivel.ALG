@@ -9,7 +9,7 @@ Inicio
 //Escreva um programa que leia um caracter e diga se ele é uma vogal, consoante, número
 //ou um símbolo (qualquer outro caracter, que não uma letra ou número).
 
-escreva ("Digite um caracter: ")
+escreva ("Digite apenas um caracter: ")
 leia (letra)
 escolha (letra)
 caso "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"
