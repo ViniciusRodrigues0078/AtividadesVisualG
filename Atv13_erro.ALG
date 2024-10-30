@@ -6,20 +6,20 @@ letra : caractere
 
 Inicio
 
-//Escreva um programa que leia um caracter e diga se ele é uma vogal, consoante, número
-//ou um símbolo (qualquer outro caracter, que não uma letra ou número).
+//Escreva um programa que leia um caracter e diga se ele ï¿½ uma vogal, consoante, nï¿½mero
+//ou um sï¿½mbolo (qualquer outro caracter, que nï¿½o uma letra ou nï¿½mero).
 
 escreva ("Digite somente um caracter: ")
 leia (letra)
 escolha letra
 caso "b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z"
-    escreval ("Seu caracter é uma consoante")
+    escreval ("Seu caracter ï¿½ uma consoante")
 caso "a", "e", "i", "o", "u"
-    escreval ("Seu caracter é uma vogal")
+    escreval ("Seu caracter ï¿½ uma vogal")
 caso "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"
-    escreval ("Seu caracter é um número")
+    escreval ("Seu caracter ï¿½ um nï¿½mero")
 outrocaso
-    escreval ("Seu caracter é um símbolo")
+    escreval ("Seu caracter ï¿½ um sï¿½mbolo")
 fimescolha
 
 Fimalgoritmo
